@@ -17,19 +17,19 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    flavorDimensions "version"
+    flavorDimensions "colegio"
     productFlavors {
         regular {
             applicationId "com.rodrigo.flavors.flavorsRegular"
-            dimension = 'version'
+            dimension = 'colegio'
         }
         regular02 {
             applicationId "com.rodrigo.flavors.flavorsRegular02"
-            dimension = 'version'
+            dimension = 'colegio'
         }
         regular03 {
             applicationId "com.rodrigo.flavors.flavorsRegular03"
-            dimension = 'version'
+            dimension = 'colegio'
         }
     }
 }
